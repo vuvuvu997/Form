@@ -5,21 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <div class="div-form">
         <form action="#" method="get">
-            <p class="title"><span></span>inkling habitat</p>
-            <input type="email" name="email" id="email" placeholder="Email Address">
-            <input type="password" name="pass" id="pass" placeholder="Password">
-            <p><a href="#">Forgot your password?</a></p>
-            <button class="btn btn-100">Sign In</button>
-            <div class="div-form__div-btn">
-                <button class="btn btn-50">Create Accout</button>
-                <button class="btn btn-50">Learn More</button>
+            <h1 class="title"><span><i class='fas fa-atom'></i></span>inkling habitat</h1>
+            <hr>
+            <div class="email">
+                <input type="email" name="email" id="email" placeholder="Email Address">
             </div>
+            <div class="password">
+                <input type="password" name="pass" id="pass" placeholder="Password">
+            </div>
+            <p><a href="#">Forgot your password?</a></p>
+            <div class="sign-in">
+                <a href="#"><button class="btn">Sign In</button></a>
+            </div>
+            <hr>
+            <div class="more">
+                <a href="#"><button class="btn btn--bk">Create Accout</button></a>
+                <div style="width: 10%;"></div>
+                <a href="#"><button class="btn btn--bk">Learn More</button></a>
+            </div>
+            <hr>
             <p class="center"><a href="#">2014 Inkling System, Inc</a></p>
         </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="div-form ">
+        <div class="blur">
+        </div>
+        <div class="div-form--jasaca">
+            <form action="#" method="get">
+                <h1 class="title titlae--jacasa">JACASA</h1>
+                <div class="email email--jasace">
+                    <span><i class="material-icons">person</i></span><input type="email" name="email" id="email" placeholder="Email Address">
+                </div>
+                <div class="password password--jasace">
+                    <span><i class='fas fa-lock'></i></span><input type="password" name="pass" id="pass" placeholder="Password">
+                </div>
+                <div class="sign-in">
+                    <a href="#"><button class="btn btn--jasace">Anmelden</button></a>
+                </div>
+                <p class="center" style="color:gray">Noch kein Konto?<a href="#"> Jetzt registrienren</a></p>
+            </form>
+        </div>
     </div>
 </body>
 </html>
